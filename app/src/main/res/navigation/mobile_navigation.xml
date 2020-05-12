@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress AndroidDomInspection -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.a10117263_andhikarizkihuda.ui.profil.ProfilFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home_second" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_teman"
+            app:destination="@id/nav_teman" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_kontak"
+            app:destination="@id/nav_kontak" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="com.example.a10117263_andhikarizkihuda.ui.profil.HomeSecondFragment"
+        android:label="@string/home_second"
+        tools:layout="@layout/fragment_home_second">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_kontak"
+        android:name="com.example.a10117263_andhikarizkihuda.ui.kontak.KontakFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_kontak" />
+    <fragment
+        android:id="@+id/nav_teman"
+        android:name="com.example.a10117263_andhikarizkihuda.ui.DaftarTeman.TemanFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_teman" />
+
+</navigation>

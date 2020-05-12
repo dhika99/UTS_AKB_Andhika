@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">10117263_AndhikaRizkiHuda</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">10117263</string>
+    <string name="nav_header_subtitle">Andhika Rizki Huda</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_tentang">Tentang</string>
+
+    <string name="menu_home">Profil</string>
+    <string name="menu_gallery">Kontak</string>
+    <string name="menu_slideshow">Daftar Teman</string>
+
+    <string name="home_second">Home Second</string>
+</resources>
