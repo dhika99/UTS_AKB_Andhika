@@ -30,14 +30,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="layoutResourceFile" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/UTS_AKB_Andhika" />
+  </component>
   <component name="ProjectId" id="1bpB7uKmkXsmXc1Zbw8HeTbkQ9B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/example/a10117263_andhikarizkihuda/ui/kontak" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -46,6 +51,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Kuliah\SEMESTER VI\AKB\10117263_AndhikaRizkiHuda\app\src\main\java\com\example\a10117263_andhikarizkihuda\ui\kontak" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="git" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -131,5 +141,16 @@
       <updated>1589318990969</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
